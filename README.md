@@ -16,7 +16,6 @@ This repository contains information about creating .Net standard library to pub
 ![](images/4-dotnet-core-target-framework.png)
 
 5. Once we click on **Create**, we are going to delete the Class1 that creates by default. **Right Click** (or press Del) to delete the class.
-
 ![](images/5-delete-default-class.png)
 
 Now we will set the namespace for our project. You can leave the default value as it is but I'm going to change it to "**ACloudTechie.Artifact**" so it looks little bit different. It means, every class from now on will get the "**ACloudTechie.Artifact**" as a namespace.

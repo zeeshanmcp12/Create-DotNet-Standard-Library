@@ -1,17 +1,13 @@
 ## Create-DotNet-Standard-Library
 This repository contains information about creating .Net standard library to publish as NuGet package.
 
-
 # How to create .Net Standard Library
-
 
 1. Launch new instance of __Visual Studio__ > Click __Create a New Project__
 ![](images/1-create-new-proj.png)
 
-
 2. Search for Class Library to select **.NET Standard Library**.
 ![](images/2-dotnet-standard-library.png)
-
 
 3. Fill in the required fields > Set **Name** to **HelperLibrary** > **Solution** Name to **NuGetDemo** and Click **Next**
 ![](images/3-configure-new-project.png)
@@ -19,16 +15,13 @@ This repository contains information about creating .Net standard library to pub
 4. Select **.NET Core 3.1** as Target Framework and Click **Create**
 ![](images/4-dotnet-core-target-framework.png)
 
-Once we click on **Create**, we are going to delete the Class1 that creates by default.
-
-5. Right Click (or press Del) to delete the class.
+5. Once we click on **Create**, we are going to delete the Class1 that creates by default. **Right Click** (or press Del) to delete the class.
 ![](images/5-delete-default-class.png)
 
 Now we will set the namespace for our project. You can leave the default value as it is but I'm going to change it to "**ACloudTechie.Artifact**" so it looks little bit different. It means, every class from now on will get the "**ACloudTechie.Artifact**" as a namespace.
 
 6. Now, Right Click on Project (**HelperLibrary**) file and Select **Properties**.
 ![](images/6-project-properties.png)
-
 
 7. Set Default namespace as **ACloudTechie.Artifact** and Click **Save**.
 ![](images/7-set-default-namespace.png)

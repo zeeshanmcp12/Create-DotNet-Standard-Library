@@ -64,6 +64,35 @@ namespace ACloudTechie.Artifact.Calculate
 }
 ```
 
+### New version after adding another function in above code
+
+```dotnet
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ACloudTechie.Artifact.Calculate
+{
+    public class Calculator
+    {
+        public static double Add(double numOne, double numTwo)
+        {
+            return numOne + numTwo;
+        }
+
+        public static double Subtract(double numOne, double numTwo)
+        {
+            return numOne - numTwo;
+        }
+
+        public static double Multiply(double numOne, double numTwo)
+        {
+            return numOne * numTwo;
+        }
+    }
+}
+```
+
 11. Now, foundation of our library has been setup.
 ![](images/11-foundation-calculate-library.png)
 
